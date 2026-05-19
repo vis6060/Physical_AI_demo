@@ -1,0 +1,16 @@
+{
+  "workflow": "synthetic_mri_ct_to_autocontour_latency_benchmark",
+  "case_id": "case_000",
+  "model_name": "monai_toy_autocontour",
+  "model_version": "0.1.0",
+  "device": "cuda",
+  "num_runs": 200,
+  "warmup_runs": 20,
+  "mean_latency_ms": 1.382,
+  "p50_latency_ms": 1.348,
+  "p95_latency_ms": 1.516,
+  "min_latency_ms": 1.274,
+  "max_latency_ms": 6.078,
+  "timestamp_utc": "2026-05-19T18:12:48.747585+00:00",
+  "disclaimer": "Toy synthetic demo. Not clinical-grade benchmark."
+}
