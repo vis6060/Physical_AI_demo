@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+monai
+numpy
+scipy
+scikit-image
+matplotlib
+pandas
+tqdm
+fastapi
+uvicorn

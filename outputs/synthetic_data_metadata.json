@@ -1,0 +1,11 @@
+{
+  "num_cases": 64,
+  "image_size": 128,
+  "seed": 42,
+  "classes": {
+    "0": "background",
+    "1": "organ",
+    "2": "tumor"
+  },
+  "disclaimer": "Toy synthetic data. Not patient data. Not clinical-grade."
+}
