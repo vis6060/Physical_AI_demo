@@ -296,12 +296,6 @@ This project is **not**:
 
 ---
 
-## Resume Summary Line
-
-**Healthcare Physical-AI Demo using NVIDIA AI Stack — MVP:** Built MONAI + PyTorch/CUDA workflow with Holoscan SDK pipeline and Isaac Sim-rendered digital twin to generate synthetic MRI/CT data, run toy auto-contouring, benchmark GPU latency, and demonstrate edge-AI audit logging.
-
----
-
 ## License
 
 Use an open-source license appropriate for your repository. Recommended options:
