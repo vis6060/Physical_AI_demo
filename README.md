@@ -18,23 +18,47 @@ This project was built to demonstrate hands-on fluency across the core building 
 - **Responsible AI / regulated workflow patterns:** audit logs, synthetic data only, reproducible outputs, and clear separation between proof-of-concept and clinical-grade software.
 
 ---
-
 ## Visual Outputs
 
-The images below are included so a reviewer can understand the project at a glance.
+### 1. Synthetic MRI/CT Data + Toy Auto-Contouring Output
 
-### 1. Synthetic MRI/CT + Toy Auto-Contouring Output
+![Synthetic MRI/CT Auto-Contouring Output](outputs/summary_visualization.png)
 
-![Synthetic MRI CT and auto-contouring output](outputs/summary_visualization.png)
+This output shows the core medical-imaging AI workflow in the project. The synthetic MRI-style image and synthetic CT-style image are generated as paired inputs, with a ground-truth segmentation mask and a model-predicted contour. The goal is to demonstrate an end-to-end imaging-AI pipeline for generating synthetic data, training a MONAI/PyTorch model, and producing toy organ/tumor auto-contouring outputs.
 
-### 2. Holoscan Edge-AI Pipeline Output
+**What this demonstrates:** synthetic data generation, MONAI model training, segmentation inference, imaging-AI workflow design, and visual validation of predicted contours.
 
-![Holoscan pipeline output](outputs/holoscan_pipeline_output.png)
+---
+
+### 2. Holoscan SDK Operator Pipeline Output
+
+![Holoscan Pipeline Output](outputs/holoscan_pipeline_output.png)
+
+This output shows the same imaging-AI workflow executed through a Holoscan-style operator pipeline. The pipeline separates the workflow into modular stages such as data loading, preprocessing, model inference, postprocessing, visualization, and audit logging. This mirrors how edge-AI healthcare applications can be organized for real-time or near-real-time deployment.
+
+**What this demonstrates:** healthcare edge-AI pipeline orchestration, modular operator design, inference workflow execution, and audit-friendly processing patterns.
+
+---
 
 ### 3. Isaac Sim Healthcare Digital-Twin Scene
 
-![Isaac Sim healthcare digital twin scene](outputs/isaac_scene_preview.png)
+![Isaac Sim Healthcare Digital Twin](outputs/isaac_scene_preview.png)
 
+This rendered Isaac Sim scene represents a simplified healthcare procedure room / image-guided intervention environment. The scene includes a patient phantom on a procedure table, imaging-device placeholder, robot/cart placeholder, clinical monitor, lighting, and room/floor geometry. It is intended as a conceptual digital-twin environment for discussing physical-AI workflows in healthcare.
+
+**What this demonstrates:** Isaac Sim scene generation, healthcare digital-twin modeling, physical-AI workflow visualization, and simulation-readiness for future extensions such as robotic workflow testing, synthetic data generation, or human-in-the-loop procedure simulation.
+
+---
+
+### Summary of Visual Proof Points
+
+Together, these visuals show that the project is not only code-based, but also produces tangible artifacts across three parts of the NVIDIA healthcare AI stack:
+
+- **MONAI + PyTorch/CUDA:** toy medical-image segmentation and GPU inference benchmarking.
+- **Holoscan SDK:** modular edge-AI workflow pipeline with audit logging.
+- **Isaac Sim:** rendered healthcare digital-twin scene for physical-AI workflow demonstration.
+
+This is an independent proof-of-concept project using NVIDIA developer tools. It is not affiliated with or endorsed by NVIDIA and is not intended for clinical use.
 ---
 
 ## End-to-End Workflow
