@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-05-20T11:11:40.730621+00:00",
+  "torch_version": "2.10.0+cu128",
+  "cuda_available": true,
+  "torch_cuda_version": "12.8",
+  "cudnn_version": 91002,
+  "device_count": 1,
+  "devices": [
+    {
+      "index": 0,
+      "name": "Tesla T4",
+      "total_memory_gb": 14.56,
+      "major": 7,
+      "minor": 5,
+      "multi_processor_count": 40
+    }
+  ]
+}

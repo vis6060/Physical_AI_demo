@@ -1,0 +1,8 @@
+{
+  "cpu_available": true,
+  "gpu_available": true,
+  "cpu_p95_latency_ms": 5.514,
+  "gpu_p95_latency_ms": 1.976,
+  "gpu_name": null,
+  "speedup_p95": 2.79
+}

@@ -3,8 +3,8 @@
   "case_id": "case_000",
   "model_name": "monai_toy_autocontour",
   "model_version": "0.1.0",
-  "device": "cpu",
-  "latency_ms": 34.115,
+  "device": "cuda",
+  "latency_ms": 207.508,
   "input_channels": [
     "synthetic_mri",
     "synthetic_ct"
@@ -16,6 +16,6 @@
   },
   "prediction_file": "outputs/sample_prediction.npy",
   "overlay_file": "outputs/sample_prediction_overlay.png",
-  "audit_timestamp_utc": "2026-05-19T14:05:02.495513+00:00",
+  "audit_timestamp_utc": "2026-05-20T11:11:56.586966+00:00",
   "disclaimer": "Toy synthetic demo. Not patient data. Not clinical-grade."
 }
